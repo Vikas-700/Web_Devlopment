@@ -1,0 +1,123 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #313330;
+    /* background: linear-gradient(135deg, #011704 0%, #ad0686 100%); */
+    color: #080106;
+}
+h1{
+    color: darkmagenta;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+header {
+    background-color: #570445;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fda085;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#portfolio .project {
+    margin: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #b80a87;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #fda085;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3510ed;
+    /* background-color: #41012e;
+    color: #fbf7f7;  */
+}
+form textarea{
+    width: 80%;
+    height: 6rem;
+    padding: 10px;
+    /* background-color: #41012e;
+    color: #fbf7f7; */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3510ed;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #fda085;
+    outline: none;
+}
+
+form button {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #d00e4b;
+    color: rgb(223, 205, 205);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555
+}
+#contact{
+    background-color: #050004;
+    color: whitesmoke;
+}
